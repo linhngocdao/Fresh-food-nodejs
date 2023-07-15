@@ -18,7 +18,7 @@ app.use("/api", cateRouter)
 
 
     // connect database
-mongoose.connect("mongodb://localhost:27017/asm-nodejs")
+mongoose.connect("mongodb+srv://dnlinhdev:Dev3005@linhdaongoc.zhsorjn.mongodb.net/fresh_food?retryWrites=true&w=majority")
     .then(() => console.log("Connect db thanh cong"))
     .catch((error) => console.log(error))
 
